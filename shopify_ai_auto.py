@@ -4,9 +4,9 @@ import datetime
 import time
 
 # === KONFIGURATION ===
-SHOPIFY_API_TOKEN = 'din_shopify_token'
-SHOPIFY_STORE = 'din-butik.myshopify.com'
-OPENAI_API_KEY = 'din_openai_key'
+SHOPIFY_API_TOKEN = os.getenv('SHOPIFY_API_TOKEN')
+SHOPIFY_STORE = os.getenv('SHOPIFY_STORE')
+OPENAI_API_KEY = os.getenv('OPENAI_API_KEY')
 OPENAI_MODEL = 'gpt-4'
 
 HEADERS_SHOPIFY = {
