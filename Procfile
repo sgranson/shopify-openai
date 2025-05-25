@@ -1,1 +1,1 @@
-worker: python shopify_ai_auto.py
+web: python app.py
