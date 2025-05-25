@@ -19,8 +19,7 @@ def index():
 def start():
     timestamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     with open(LOG_FILE, "a", encoding="utf-8") as f:
-        f.write(f"[{timestamp}] 🟢 Manuell körning startad via webb
-")
+        f.write(f"[{timestamp}] 🟢 Manuell körning startad via webb")
     # Här skulle vi anropa automatiseringsflödet
     return "AI-flöde påbörjat!"
 
